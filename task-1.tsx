@@ -8,6 +8,9 @@ type Author = {
   avatar?: string
 }
 
+// Task: find what would cause a warning but not an error
+// Bonus: find a content-render error, which would cause nothing code-wise, but confuse the users 
+
 export const AuthorsList = (authors: Author[]) => (
   <ul className="list_authors">
     {authors.map((author) => (
