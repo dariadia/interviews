@@ -15,3 +15,12 @@ let someThing = {
 someThing.action()
 
 // 3
+let array
+array.map(item => console.log(item))
+
+// 4
+const user1Age = 55
+const user2Age = 14
+if ((user1Age > user2Age) && (user2Age > 18) {
+  console.log("All users are of age!")
+}
