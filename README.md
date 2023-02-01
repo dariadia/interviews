@@ -1,2 +1,2 @@
 ### What
-A tasks collection.
+A React & TypeScript tasks collection. For interview questions.
