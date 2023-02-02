@@ -35,3 +35,15 @@ const translations = {
 for (let key of Object.entries(translations)) {
   console.log(key, translations[key])
 }
+
+
+// 6
+let userName = "John Doe"
+const myFunc = () => {
+  let userName = "Nick"
+  let userName = "Abraham"
+  console.log(userName)
+}
+
+myFunc()
+console.log(userName)
