@@ -47,3 +47,10 @@ const myFunc = () => {
 
 myFunc()
 console.log(userName)
+
+// 7
+const calculateArea = (height = 50, width = 60) => {
+  return width * height
+}
+
+console.log(calculateArea())
