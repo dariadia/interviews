@@ -24,3 +24,14 @@ const user2Age = 14
 if ((user1Age > user2Age) && (user2Age > 18) {
   console.log("All users are of age!")
 }
+
+// 5
+const translations = {
+  en: "Good morning",
+  de: "Guten Morgen",
+  rs: "Dobro jutro",
+}
+
+for (let key of Object.entries(translations)) {
+  console.log(key, translations[key])
+}
