@@ -2,7 +2,7 @@
 Fetch users from [API](https://jsonplaceholder.typicode.com/users). Render an HTML list with the data structured as follows: user.id: user.username
 
 ### Task 2
-This always returns `undefined`
+This always returns `undefined` whereas it should return data.
 
 ``````
 const getData = () => {
