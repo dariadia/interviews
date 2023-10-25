@@ -4,7 +4,7 @@ Fetch users from [API](https://jsonplaceholder.typicode.com/users). Console log 
 ### Task 2
 This always returns `undefined` whereas it should return data.
 
-``````
+```
 const getData = () => {
 	let result
 
