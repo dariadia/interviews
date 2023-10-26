@@ -10,7 +10,7 @@ class Book extends React.Component {
     isRead: false,
   }
   getData = () => {
-    ;<div>
+    <div>
       <img src={BOOK_COVER()} alt="" />
       {this.state.title}
     </div>
