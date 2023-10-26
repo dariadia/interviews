@@ -1,3 +1,5 @@
+// Correct all errors
+
 import React from 'react'
 
 const BOOK_COVER =
